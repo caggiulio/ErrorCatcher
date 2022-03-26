@@ -1,0 +1,6 @@
+use_frameworks!
+target 'NCGErrorHandler_Tests' do
+  pod 'NCGErrorHandler', :path => '../'
+  
+  
+end
