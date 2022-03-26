@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0511E6593A2351C37A1FCA8A22EB720A /* NCGErrorHandler-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A574F3EBEE714344706B04C7E911D2C3 /* NCGErrorHandler-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		330929BC1BDC172CDDA8594A9BDE0120 /* Pods-NCGErrorHandler_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C855F196ED7F1B89E5CB7D2A017F68AE /* Pods-NCGErrorHandler_Tests-dummy.m */; };
+		3F2C794075A5D03563DAB93783FE8C47 /* NCGHandleErrorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850CB811FFC242F89CF7212FD6AD4AA1 /* NCGHandleErrorManager.swift */; };
+		6B3665F22E3F129B2DB22080B776E355 /* Pods-NCGErrorHandler_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 14B9E49A0A05B53579F017E6C74097A1 /* Pods-NCGErrorHandler_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80B2E77B690C3C77A83198C76ACC6226 /* NCGErrorHandeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A280CCF0285685DF7058C243359F2628 /* NCGErrorHandeable.swift */; };
+		B4920A614BF8878043BC17BBA5013936 /* NCGErrorHandler-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAC13D5953C6D73598FDFC19CEC1C59 /* NCGErrorHandler-dummy.m */; };
+		D23D4BFF466AF598E872E40260976E39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EDF25CDD68F32F9B67C2869A3A9F3E8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FA500A6470795C41ED2BB4E269D88A7D /* NCGErrorConvenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9EF354CB0D4A606AD528439380B53A /* NCGErrorConvenience.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE776C0B23CEAD33E3822267B1974064 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39099FD924B358C4C45F272D02B900A2;
+			remoteInfo = NCGErrorHandler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03EEC0A99A04DA00E0771E34507C6B4A /* Pods-NCGErrorHandler_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NCGErrorHandler_Tests-Info.plist"; sourceTree = "<group>"; };
+		050EA51E8D3956EBCE12DBCF32A9AADE /* Pods-NCGErrorHandler_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NCGErrorHandler_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0B7B8461741EFE473C2B59ED3BCBE882 /* Pods-NCGErrorHandler_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-NCGErrorHandler_Tests"; path = Pods_NCGErrorHandler_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11E922EA531626D86B70755ACCB5F470 /* NCGErrorHandler */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NCGErrorHandler; path = NCGErrorHandler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		14B9E49A0A05B53579F017E6C74097A1 /* Pods-NCGErrorHandler_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NCGErrorHandler_Tests-umbrella.h"; sourceTree = "<group>"; };
+		14D613F1A6EA83A23E0E114D9408884F /* NCGErrorHandler-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NCGErrorHandler-prefix.pch"; sourceTree = "<group>"; };
+		1A9EF354CB0D4A606AD528439380B53A /* NCGErrorConvenience.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NCGErrorConvenience.swift; path = NCGErrorHandler/Classes/NCGErrorConvenience.swift; sourceTree = "<group>"; };
+		1BF4C86024D3EE7C117481D3D0EA7239 /* NCGErrorHandler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NCGErrorHandler.debug.xcconfig; sourceTree = "<group>"; };
+		235404D8E4456AE199EDE50146D007DF /* NCGErrorHandler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NCGErrorHandler.release.xcconfig; sourceTree = "<group>"; };
+		245A2F91395829409807751FFEAA92B2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4DAC13D5953C6D73598FDFC19CEC1C59 /* NCGErrorHandler-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NCGErrorHandler-dummy.m"; sourceTree = "<group>"; };
+		4F08AAEFB4515C178ECF0063F74A02ED /* NCGErrorHandler-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NCGErrorHandler-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		774E21E6488C102259FE9BBA621C64AD /* NCGErrorHandler.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NCGErrorHandler.modulemap; sourceTree = "<group>"; };
+		7C570968D2D39DB90CF594DE67CA731B /* Pods-NCGErrorHandler_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NCGErrorHandler_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		850CB811FFC242F89CF7212FD6AD4AA1 /* NCGHandleErrorManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NCGHandleErrorManager.swift; path = NCGErrorHandler/Classes/NCGHandleErrorManager.swift; sourceTree = "<group>"; };
+		87CBC1EEA9892C64737287AFB77BCBB8 /* Pods-NCGErrorHandler_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NCGErrorHandler_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8A1D2484B7E7571E490DEE9F40D44318 /* Pods-NCGErrorHandler_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NCGErrorHandler_Tests.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A280CCF0285685DF7058C243359F2628 /* NCGErrorHandeable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NCGErrorHandeable.swift; path = NCGErrorHandler/Classes/NCGErrorHandeable.swift; sourceTree = "<group>"; };
+		A574F3EBEE714344706B04C7E911D2C3 /* NCGErrorHandler-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NCGErrorHandler-umbrella.h"; sourceTree = "<group>"; };
+		BFB5C1C64753A2E0125072B817D35C52 /* NCGErrorHandler.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = NCGErrorHandler.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C855F196ED7F1B89E5CB7D2A017F68AE /* Pods-NCGErrorHandler_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NCGErrorHandler_Tests-dummy.m"; sourceTree = "<group>"; };
+		D809B0CB979AFE34E4D1DB29901D1451 /* Pods-NCGErrorHandler_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NCGErrorHandler_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DAA60620D869DA2ABDBE9A8C9457F792 /* Pods-NCGErrorHandler_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NCGErrorHandler_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E5961846CFF9DC224BA24B1C83F29F30 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D17D36F6079650E1B18166036BDAAD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF25CDD68F32F9B67C2869A3A9F3E8C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5267F99FE53F9DC464D507D280835F3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D23D4BFF466AF598E872E40260976E39 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04E83230955944A24F17839DD990F0CD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				774E21E6488C102259FE9BBA621C64AD /* NCGErrorHandler.modulemap */,
+				4DAC13D5953C6D73598FDFC19CEC1C59 /* NCGErrorHandler-dummy.m */,
+				4F08AAEFB4515C178ECF0063F74A02ED /* NCGErrorHandler-Info.plist */,
+				14D613F1A6EA83A23E0E114D9408884F /* NCGErrorHandler-prefix.pch */,
+				A574F3EBEE714344706B04C7E911D2C3 /* NCGErrorHandler-umbrella.h */,
+				1BF4C86024D3EE7C117481D3D0EA7239 /* NCGErrorHandler.debug.xcconfig */,
+				235404D8E4456AE199EDE50146D007DF /* NCGErrorHandler.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/NCGErrorHandler";
+			sourceTree = "<group>";
+		};
+		2E320041C739D1EF8F09D76538FCD145 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E5961846CFF9DC224BA24B1C83F29F30 /* LICENSE */,
+				BFB5C1C64753A2E0125072B817D35C52 /* NCGErrorHandler.podspec */,
+				245A2F91395829409807751FFEAA92B2 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		61260A9C11197C885DD1F121B2211AFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11E922EA531626D86B70755ACCB5F470 /* NCGErrorHandler */,
+				0B7B8461741EFE473C2B59ED3BCBE882 /* Pods-NCGErrorHandler_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3CD4379E531E99562B4E3F225A042BD /* Pods-NCGErrorHandler_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8A1D2484B7E7571E490DEE9F40D44318 /* Pods-NCGErrorHandler_Tests.modulemap */,
+				D809B0CB979AFE34E4D1DB29901D1451 /* Pods-NCGErrorHandler_Tests-acknowledgements.markdown */,
+				050EA51E8D3956EBCE12DBCF32A9AADE /* Pods-NCGErrorHandler_Tests-acknowledgements.plist */,
+				C855F196ED7F1B89E5CB7D2A017F68AE /* Pods-NCGErrorHandler_Tests-dummy.m */,
+				7C570968D2D39DB90CF594DE67CA731B /* Pods-NCGErrorHandler_Tests-frameworks.sh */,
+				03EEC0A99A04DA00E0771E34507C6B4A /* Pods-NCGErrorHandler_Tests-Info.plist */,
+				14B9E49A0A05B53579F017E6C74097A1 /* Pods-NCGErrorHandler_Tests-umbrella.h */,
+				DAA60620D869DA2ABDBE9A8C9457F792 /* Pods-NCGErrorHandler_Tests.debug.xcconfig */,
+				87CBC1EEA9892C64737287AFB77BCBB8 /* Pods-NCGErrorHandler_Tests.release.xcconfig */,
+			);
+			name = "Pods-NCGErrorHandler_Tests";
+			path = "Target Support Files/Pods-NCGErrorHandler_Tests";
+			sourceTree = "<group>";
+		};
+		BF9BCB50E5224BB3A3A333AF125B6915 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA59E0B2EF01EE3CBC12B55186CDA6B5 /* NCGErrorHandler */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C9F0E9632482ADDEB9771DE6DDDB6491 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3CD4379E531E99562B4E3F225A042BD /* Pods-NCGErrorHandler_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				BF9BCB50E5224BB3A3A333AF125B6915 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				61260A9C11197C885DD1F121B2211AFC /* Products */,
+				C9F0E9632482ADDEB9771DE6DDDB6491 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA59E0B2EF01EE3CBC12B55186CDA6B5 /* NCGErrorHandler */ = {
+			isa = PBXGroup;
+			children = (
+				1A9EF354CB0D4A606AD528439380B53A /* NCGErrorConvenience.swift */,
+				A280CCF0285685DF7058C243359F2628 /* NCGErrorHandeable.swift */,
+				850CB811FFC242F89CF7212FD6AD4AA1 /* NCGHandleErrorManager.swift */,
+				2E320041C739D1EF8F09D76538FCD145 /* Pod */,
+				04E83230955944A24F17839DD990F0CD /* Support Files */,
+			);
+			name = NCGErrorHandler;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0154A49CD9493B4D1FBC2882B652323D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0511E6593A2351C37A1FCA8A22EB720A /* NCGErrorHandler-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD24FA2036156113397F0A289CFFDB74 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B3665F22E3F129B2DB22080B776E355 /* Pods-NCGErrorHandler_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0FDE78930A8EBF0052324ED1345E1897 /* Pods-NCGErrorHandler_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E13CA1CFB8F54451FC38748FDD33B54 /* Build configuration list for PBXNativeTarget "Pods-NCGErrorHandler_Tests" */;
+			buildPhases = (
+				AD24FA2036156113397F0A289CFFDB74 /* Headers */,
+				C4A0F39975677E65F354662886C9F96A /* Sources */,
+				5267F99FE53F9DC464D507D280835F3D /* Frameworks */,
+				D09EA0D4B26A2FE593DB8BA57A390A8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA3CE3EE285F8BCB7221E363F6993629 /* PBXTargetDependency */,
+			);
+			name = "Pods-NCGErrorHandler_Tests";
+			productName = Pods_NCGErrorHandler_Tests;
+			productReference = 0B7B8461741EFE473C2B59ED3BCBE882 /* Pods-NCGErrorHandler_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		39099FD924B358C4C45F272D02B900A2 /* NCGErrorHandler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3743C5653C68DC367C54536BDA581CEB /* Build configuration list for PBXNativeTarget "NCGErrorHandler" */;
+			buildPhases = (
+				0154A49CD9493B4D1FBC2882B652323D /* Headers */,
+				D3F3E741B96EDC32B56566EF540CEC55 /* Sources */,
+				3D17D36F6079650E1B18166036BDAAD5 /* Frameworks */,
+				B1472A9A040C68FC9DB6AAE1B965BED7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NCGErrorHandler;
+			productName = NCGErrorHandler;
+			productReference = 11E922EA531626D86B70755ACCB5F470 /* NCGErrorHandler */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 61260A9C11197C885DD1F121B2211AFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39099FD924B358C4C45F272D02B900A2 /* NCGErrorHandler */,
+				0FDE78930A8EBF0052324ED1345E1897 /* Pods-NCGErrorHandler_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1472A9A040C68FC9DB6AAE1B965BED7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09EA0D4B26A2FE593DB8BA57A390A8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4A0F39975677E65F354662886C9F96A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				330929BC1BDC172CDDA8594A9BDE0120 /* Pods-NCGErrorHandler_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3F3E741B96EDC32B56566EF540CEC55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA500A6470795C41ED2BB4E269D88A7D /* NCGErrorConvenience.swift in Sources */,
+				80B2E77B690C3C77A83198C76ACC6226 /* NCGErrorHandeable.swift in Sources */,
+				B4920A614BF8878043BC17BBA5013936 /* NCGErrorHandler-dummy.m in Sources */,
+				3F2C794075A5D03563DAB93783FE8C47 /* NCGHandleErrorManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA3CE3EE285F8BCB7221E363F6993629 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NCGErrorHandler;
+			target = 39099FD924B358C4C45F272D02B900A2 /* NCGErrorHandler */;
+			targetProxy = EE776C0B23CEAD33E3822267B1974064 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		033FE0FF40D8DDE98347319407DC19E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BF4C86024D3EE7C117481D3D0EA7239 /* NCGErrorHandler.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NCGErrorHandler/NCGErrorHandler-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NCGErrorHandler/NCGErrorHandler-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NCGErrorHandler/NCGErrorHandler.modulemap";
+				PRODUCT_MODULE_NAME = NCGErrorHandler;
+				PRODUCT_NAME = NCGErrorHandler;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1CFBBAA089A8E09116AE095026753F2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 235404D8E4456AE199EDE50146D007DF /* NCGErrorHandler.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NCGErrorHandler/NCGErrorHandler-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NCGErrorHandler/NCGErrorHandler-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NCGErrorHandler/NCGErrorHandler.modulemap";
+				PRODUCT_MODULE_NAME = NCGErrorHandler;
+				PRODUCT_NAME = NCGErrorHandler;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D65F50F3675ADE2FEBE6DFC13F9816C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAA60620D869DA2ABDBE9A8C9457F792 /* Pods-NCGErrorHandler_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NCGErrorHandler_Tests/Pods-NCGErrorHandler_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NCGErrorHandler_Tests/Pods-NCGErrorHandler_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E260BE8630D88B4C73E9244345871665 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87CBC1EEA9892C64737287AFB77BCBB8 /* Pods-NCGErrorHandler_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NCGErrorHandler_Tests/Pods-NCGErrorHandler_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NCGErrorHandler_Tests/Pods-NCGErrorHandler_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3743C5653C68DC367C54536BDA581CEB /* Build configuration list for PBXNativeTarget "NCGErrorHandler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				033FE0FF40D8DDE98347319407DC19E0 /* Debug */,
+				1CFBBAA089A8E09116AE095026753F2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E13CA1CFB8F54451FC38748FDD33B54 /* Build configuration list for PBXNativeTarget "Pods-NCGErrorHandler_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D65F50F3675ADE2FEBE6DFC13F9816C2 /* Debug */,
+				E260BE8630D88B4C73E9244345871665 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

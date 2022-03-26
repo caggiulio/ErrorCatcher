@@ -18,9 +18,9 @@
 		75A009BE8F8094A20E5F5356 /* Pods-NCGErrorHandler_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NCGErrorHandler_Tests.release.xcconfig"; path = "Target Support Files/Pods-NCGErrorHandler_Tests/Pods-NCGErrorHandler_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		845EBF8D72F11BF16331ADD9 /* Pods_NCGErrorHandler_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NCGErrorHandler_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		861C8165BB43C53F121356F1 /* Pods-NCGErrorHandler_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NCGErrorHandler_Tests.debug.xcconfig"; path = "Target Support Files/Pods-NCGErrorHandler_Tests/Pods-NCGErrorHandler_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		BB47819F7CEBD4C8856B2049 /* NCGErrorHandler.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = NCGErrorHandler.podspec; path = ../NCGErrorHandler.podspec; sourceTree = "<group>"; };
-		EF894162B26D0CF43758CD8F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		F11213FA2233BEE983159CFA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BB47819F7CEBD4C8856B2049 /* NCGErrorHandler.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NCGErrorHandler.podspec; path = ../NCGErrorHandler.podspec; sourceTree = "<group>"; };
+		EF894162B26D0CF43758CD8F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F11213FA2233BEE983159CFA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +41,6 @@
 				861C8165BB43C53F121356F1 /* Pods-NCGErrorHandler_Tests.debug.xcconfig */,
 				75A009BE8F8094A20E5F5356 /* Pods-NCGErrorHandler_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -131,10 +130,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
@@ -147,6 +142,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -270,7 +266,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -316,7 +312,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";

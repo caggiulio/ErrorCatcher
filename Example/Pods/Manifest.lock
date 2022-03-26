@@ -1,0 +1,16 @@
+PODS:
+  - NCGErrorHandler (0.1.0)
+
+DEPENDENCIES:
+  - NCGErrorHandler (from `../`)
+
+EXTERNAL SOURCES:
+  NCGErrorHandler:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NCGErrorHandler: 5f701d33ade56c61162a488937a269b94c3dd6ab
+
+PODFILE CHECKSUM: 7a435d21af6920c57e42ab9b8ae1daa7b6b0e621
+
+COCOAPODS: 1.11.2

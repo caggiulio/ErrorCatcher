@@ -1,0 +1,6 @@
+framework module NCGErrorHandler {
+  umbrella header "NCGErrorHandler-umbrella.h"
+
+  export *
+  module * { export * }
+}
